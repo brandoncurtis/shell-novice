@@ -714,7 +714,7 @@ Run `pwd` and `ls -F` to ensure that we're in the directory we expect.
 > think of it as the *Last Channel* button on a TV remote.
 {: .callout}
 
-### Nelle's Pipeline: Organizing Files
+## Nelle's Pipeline: Organizing Files
 
 Knowing just this much about files and directories,
 Nelle is ready to organize the files that the protein assay machine will create.
