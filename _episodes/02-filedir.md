@@ -407,9 +407,9 @@ and (if you're lucky) provides a few examples of how to use it.
 {: .callout}
 
 To navigate through the `man` pages,
-you may use the up and down arrow keys to move line-by-line,
-or try the "b" and spacebar keys to skip up and down by full page.
-Quit the `man` pages by typing "q".
+you may use the `&uarr;` and `&darr;` arrow keys to move line-by-line,
+or try the `B` and `SPACEBAR` keys to skip up and down by full page.
+Quit the `man` pages by typing `Q`.
 
 Here,
 we can see that our home directory contains mostly **sub-directories**.
@@ -768,7 +768,7 @@ $ ls nor
 ~~~
 {: .bash}
 
-and then presses tab (the tab key on her keyboard),
+and then presses the `TAB` key on her keyboard,
 the shell automatically completes the directory name for her:
 
 ~~~
@@ -779,9 +779,9 @@ $ ls north-pacific-gyre/
 If she presses tab again,
 Bash will add `2012-07-03/` to the command,
 since it's the only possible completion.
-Pressing tab again does nothing,
+Pressing `TAB` again does nothing,
 since there are 19 possibilities;
-pressing tab twice brings up a list of all the files,
+pressing `TAB` twice brings up a list of all the files,
 and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
