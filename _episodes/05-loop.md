@@ -366,7 +366,7 @@ $ for datafile in *[AB].txt; do bash goostats $datafile stats-$datafile; done
 ~~~
 {: .bash}
 
-When she presses Enter,
+When she presses `ENTER`,
 the shell runs the modified command.
 However, nothing appears to happen --- there is no output.
 After a moment, Nelle realizes that since her script doesn't print anything to the screen any longer,

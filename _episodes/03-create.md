@@ -154,7 +154,7 @@ Let's type in a few lines of text.
 Once we're happy with our text, we can press `Ctrl-O` (press the Ctrl or Control key and, while
 holding it down, press the O key) to write our data to disk
 (we'll be asked what file we want to save this to:
-press Return to accept the suggested default of `draft.txt`).
+press `ENTER` to accept the suggested default of `draft.txt`).
 
 ![Nano in Action](../fig/nano-screenshot.png)
 

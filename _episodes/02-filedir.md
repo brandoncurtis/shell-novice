@@ -45,7 +45,7 @@ let's open a shell window:
 >
 > If you type the command:
 > `PS1='$ '`
-> into your shell, followed by pressing the 'enter' key,
+> into your shell, followed by pressing the `ENTER` key,
 > your window should look like our example in this lesson.  
 > This isn't necessary to follow along (in fact, your prompt may have
 > other helpful information you want to know about).  This is up to you!  
@@ -62,7 +62,7 @@ the prompt. When typing commands, either from these lessons or from other source
 do not type the prompt, only the commands that follow it.
 
 Type the command `whoami`,
-then press the Enter key (sometimes marked Return) to send the command to the shell.
+then press the `ENTER` key to send the command to the shell.
 The command's output is the ID of the current user,
 i.e.,
 it shows us who the shell thinks we are:
@@ -101,7 +101,7 @@ More specifically, when we type `whoami` the shell:
 > Remember, the Shell is a program that runs other programs rather than doing
 > calculations itself. So the commands you type must be the names of existing
 > programs.
-> If you type the name of a program that does not exist and hit enter, you
+> If you type the name of a program that does not exist and hit `ENTER`, you
 > will see an error message similar to this:
 > 
 > ~~~
