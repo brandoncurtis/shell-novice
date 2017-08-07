@@ -151,7 +151,7 @@ $ nano draft.txt
 {: .callout}
 
 Let's type in a few lines of text.
-Once we're happy with our text, we can press *CTRL-O*{: .keyboard } (press the *CTRL*{: .keyboard } or *CONTROL*{: .keyboard } key and, while
+Once we're happy with our text, we can press *CTRL*{: .keyboard }+*O*{: .keyboard } (press the *CTRL*{: .keyboard } or *CONTROL*{: .keyboard } key and, while
 holding it down, press the *O*{: .keyboard } key) to write our data to disk
 (we'll be asked what file we want to save this to:
 press `ENTER` to accept the suggested default of `draft.txt`).
@@ -176,7 +176,7 @@ return to the shell.
 > * *C-x*{: .keyboard }
 >
 > In nano, along the bottom of the screen you'll see `^G Get Help ^O WriteOut`.
-> This means that you can use *CONTROL-G*{: .keyboard } to get help and *CONTROL-O*{: .keyboard } to save your
+> This means that you can use *CTRL*{: .keyboard }+*G*{: .keyboard } to get help and *CTRL*{: .keyboard }+*O*{: .keyboard } to save your
 > file.
 {: .callout}
 
