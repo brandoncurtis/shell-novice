@@ -372,7 +372,7 @@ However, nothing appears to happen --- there is no output.
 After a moment, Nelle realizes that since her script doesn't print anything to the screen any longer,
 she has no idea whether it is running, much less how quickly.
 She kills the running command by typing *CTRL*{: .keyboard }+*C*{: .keyboard },
-uses `&uarr;` to repeat the command,
+uses *&uarr;*{: .keyboard} to repeat the command,
 and edits it to read:
 
 ~~~
