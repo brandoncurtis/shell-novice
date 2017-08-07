@@ -400,7 +400,7 @@ and (if you're lucky) provides a few examples of how to use it.
 > pages online.
 > For example, GNU provides links to its
 > [manuals](http://www.gnu.org/manual/manual.html):
-> these include [grep](http://www.gnu.org/software/grep/manual/),
+> these include `[grep](http://www.gnu.org/software/grep/manual/)`,
 > and the
 > [core GNU utilities](http://www.gnu.org/software/coreutils/manual/coreutils.html),
 > which covers many commands introduced within this lesson.

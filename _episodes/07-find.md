@@ -74,7 +74,7 @@ Today it is not working
 ~~~
 {: .output}
 
-Here, `not` is the pattern we're searching for. The grep command searches through the file, looking for matches to the pattern specified. To use it type grep, then the pattern we're searching for and finally the name of the file (or files) we're searching in.
+Here, `not` is the pattern we're searching for. The `grep` command searches through the file, looking for matches to the pattern specified. To use it type `grep`, then the pattern we're searching for and finally the name of the file (or files) we're searching in.
 
 The output is the three lines in the file that contain the letters "not".
 
@@ -233,7 +233,7 @@ Miscellaneous:
 > `grep`'s real power doesn't come from its options, though; it comes from
 > the fact that patterns can include wildcards. (The technical name for
 > these is **regular expressions**, which
-> is what the "re" in "grep" stands for.) Regular expressions are both complex
+> is what the "re" in "`grep`" stands for.) Regular expressions are both complex
 > and powerful; if you want to do complex searches, please look at the lesson
 > on [our website](http://v4.software-carpentry.org/regexp/index.html). As a taster, we can
 > find lines that have an 'o' in the second position like this:
@@ -592,7 +592,7 @@ about them."
 > ~~~
 > {: .bash}
 >
-> Hint: use `man grep` to look for how to grep text recursively in a directory
+> Hint: use `man grep` to look for how to `grep` text recursively in a directory
 > and `man cut` to select more than one field in a line.
 >
 > An example of such a file is provided in `data-shell/data/animal-counts/animals.txt`
