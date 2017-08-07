@@ -18,7 +18,7 @@ keypoints:
 - "Do not use spaces, quotes, or wildcard characters such as '*' or '?' in filenames, as it complicates variable expansion."
 - "Give files consistent names that are easy to match with wildcard patterns to make it easy to select them for looping."
 - "Use the *&uarr;*{: .keyboard } key to scroll up through previous commands to edit and repeat them."
-- "Use `Ctrl-R` to search through the previously entered commands."
+- "Use *CTRL-R*{: .keyboard } to search through the previously entered commands."
 - "Use `history` to display recent commands, and `!number` to repeat a command by number."
 ---
 
@@ -371,7 +371,7 @@ the shell runs the modified command.
 However, nothing appears to happen --- there is no output.
 After a moment, Nelle realizes that since her script doesn't print anything to the screen any longer,
 she has no idea whether it is running, much less how quickly.
-She kills the running command by typing `Ctrl-C`,
+She kills the running command by typing *CTRL-C*{: .keyboard },
 uses `&uarr;` to repeat the command,
 and edits it to read:
 
@@ -382,8 +382,8 @@ $ for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$d
 
 > ## Beginning and End
 >
-> We can move to the beginning of a line in the shell by typing `Ctrl-A`
-> and to the end using `Ctrl-E`.
+> We can move to the beginning of a line in the shell by typing *CTRL-A*{: .keyboard }
+> and to the end using *CTRL-E*{: .keyboard }.
 {: .callout}
 
 When she runs her program now,
@@ -436,9 +436,9 @@ so she decides to get some coffee and catch up on her reading.
 >
 > There are a number of other shortcut commands for getting at the history.
 >
-> - `Ctrl-R` enters a history search mode "reverse-i-search" and finds the 
+> - *CTRL-R*{: .keyboard } enters a history search mode "reverse-i-search" and finds the 
 > most recent command in your history that matches the text you enter next.
-> Press `Ctrl-R` one or more additional times to search for earlier matches.
+> Press *CTRL-R*{: .keyboard } one or more additional times to search for earlier matches.
 > - `!!` retrieves the immediately preceding command 
 > (you may or may not find this more convenient than using the *&uarr;*{: .keyboard } key)
 > - `!$` retrieves the last word of the last command.
