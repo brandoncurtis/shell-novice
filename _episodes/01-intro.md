@@ -55,7 +55,7 @@ to distinguish it from a
 **graphical user interface**, or GUI,
 which most people now use.
 The heart of a CLI is a **read-evaluate-print loop**, or REPL:
-when the user types a command and then presses the `ENTER` (sometimes alternatively labeled as `RETURN`) key,
+when the user types a command and then presses the *ENTER* (sometimes alternatively labeled as *RETURN*) key,
 the computer reads it,
 executes it,
 and prints its output.

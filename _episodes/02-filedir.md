@@ -45,7 +45,7 @@ let's open a shell window:
 >
 > If you type the command:
 > `PS1='$ '`
-> into your shell, followed by pressing the `ENTER` key,
+> into your shell, followed by pressing the *ENTER* key,
 > your window should look like our example in this lesson.  
 > This isn't necessary to follow along (in fact, your prompt may have
 > other helpful information you want to know about).  This is up to you!  
@@ -62,7 +62,7 @@ the prompt. When typing commands, either from these lessons or from other source
 do not type the prompt, only the commands that follow it.
 
 Type the command `whoami`,
-then press the `ENTER` key to send the command to the shell.
+then press the *ENTER* key to send the command to the shell.
 The command's output is the ID of the current user,
 i.e.,
 it shows us who the shell thinks we are:
@@ -407,9 +407,9 @@ and (if you're lucky) provides a few examples of how to use it.
 {: .callout}
 
 To navigate through the `man` pages,
-you may use the `&uarr;` and `&darr;` arrow keys to move line-by-line,
-or try the `B` and `SPACEBAR` keys to skip up and down by full page.
-Quit the `man` pages by typing `Q`.
+you may use the *&uarr;* and *&darr;* arrow keys to move line-by-line,
+or try the *B* and *SPACEBAR* keys to skip up and down by full page.
+Quit the `man` pages by typing *Q*.
 
 Here,
 we can see that our home directory contains mostly **sub-directories**.
@@ -768,7 +768,7 @@ $ ls nor
 ~~~
 {: .bash}
 
-and then presses the `TAB` key on her keyboard,
+and then presses the *TAB* key on her keyboard,
 the shell automatically completes the directory name for her:
 
 ~~~
@@ -776,12 +776,12 @@ $ ls north-pacific-gyre/
 ~~~
 {: .bash}
 
-If she presses tab again,
+If she presses *TAB* again,
 Bash will add `2012-07-03/` to the command,
 since it's the only possible completion.
-Pressing `TAB` again does nothing,
+Pressing *TAB* again does nothing,
 since there are 19 possibilities;
-pressing `TAB` twice brings up a list of all the files,
+pressing *TAB* twice brings up a list of all the files,
 and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
