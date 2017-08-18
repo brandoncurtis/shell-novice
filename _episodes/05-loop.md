@@ -17,8 +17,8 @@ keypoints:
 - "Use `$name` to expand a variable (i.e., get its value). `${name}` can also be used."
 - "Do not use spaces, quotes, or wildcard characters such as '*' or '?' in filenames, as it complicates variable expansion."
 - "Give files consistent names that are easy to match with wildcard patterns to make it easy to select them for looping."
-- "Use the *&uarr;*{: .keyboard } key to scroll up through previous commands to edit and repeat them."
-- "Use *CTRL*{: .keyboard }+*R*{: .keyboard } to search through the previously entered commands."
+- "Use the *&uarr;*{:.keyboard} key to scroll up through previous commands to edit and repeat them."
+- "Use *Ctrl*{:.keyboard}+*R*{:.keyboard} to search through the previously entered commands."
 - "Use `history` to display recent commands, and `!number` to repeat a command by number."
 ---
 
@@ -348,7 +348,7 @@ Typing in commands over and over again is becoming tedious,
 though,
 and Nelle is worried about making mistakes,
 so instead of re-entering her loop,
-she presses the *&uarr;*{: .keyboard } key.
+she presses the *&uarr;*{:.keyboard} key.
 In response,
 the shell redisplays the whole loop on one line
 (using semi-colons to separate the pieces):
@@ -358,7 +358,7 @@ $ for datafile in *[AB].txt; do echo $datafile stats-$datafile; done
 ~~~
 {: .bash}
 
-Using the *&larr;*{: .keyboard } key,
+Using the *&larr;*{:.keyboard} key,
 Nelle backs up and changes the command `echo` to `bash goostats`:
 
 ~~~
@@ -371,8 +371,8 @@ the shell runs the modified command.
 However, nothing appears to happen --- there is no output.
 After a moment, Nelle realizes that since her script doesn't print anything to the screen any longer,
 she has no idea whether it is running, much less how quickly.
-She kills the running command by typing *CTRL*{: .keyboard }+*C*{: .keyboard },
-uses *&uarr;*{: .keyboard} to repeat the command,
+She kills the running command by typing *Ctrl*{:.keyboard}+*C*{:.keyboard},
+uses *&uarr;*{:.keyboard} to repeat the command,
 and edits it to read:
 
 ~~~
@@ -382,8 +382,8 @@ $ for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$d
 
 > ## Beginning and End
 >
-> We can move to the beginning of a line in the shell by typing *CTRL*{: .keyboard }+*A*{: .keyboard }
-> and to the end using *CTRL*{: .keyboard }+*E*{: .keyboard }.
+> We can move to the beginning of a line in the shell by typing *Ctrl*{:.keyboard}+*A*{:.keyboard}
+> and to the end using *Ctrl*{:.keyboard}+*E*{:.keyboard}.
 {: .callout}
 
 When she runs her program now,
@@ -436,16 +436,16 @@ so she decides to get some coffee and catch up on her reading.
 >
 > There are a number of other shortcut commands for getting at the history.
 >
-> - *CTRL*{: .keyboard }+*R*{: .keyboard } enters a history search mode "reverse-i-search" and finds the 
+> - *Ctrl*{: .keyboard }+*R*{:.keyboard} enters a history search mode "reverse-i-search" and finds the 
 > most recent command in your history that matches the text you enter next.
-> Press *CTRL*{: .keyboard }+*R*{: .keyboard } one or more additional times to search for earlier matches.
+> Press *Ctrl*{: .keyboard }+*R*{:.keyboard} one or more additional times to search for earlier matches.
 > - `!!` retrieves the immediately preceding command 
-> (you may or may not find this more convenient than using the *&uarr;*{: .keyboard } key)
+> (you may or may not find this more convenient than using the *&uarr;*{:.keyboard} key)
 > - `!$` retrieves the last word of the last command.
 > That's useful more often than you might expect: after
 > `bash goostats NENE01729B.txt stats-NENE01729B.txt`, you can type
 > `less !$` to look at the file `stats-NENE01729B.txt`, which is
-> quicker than using the *&uarr;*{: .keyboard } key and editing the command-line.
+> quicker than using the *&uarr;*{:.keyboard} key and editing the command-line.
 {: .callout}
 
 > ## Variables in Loops

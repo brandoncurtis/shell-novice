@@ -15,7 +15,7 @@ keypoints:
 - "`mkdir path` creates a new directory."
 - "`mv old new` moves (renames) a file or directory."
 - "`rm path` removes (deletes) a file."
-- "Use of the *CONTROL*{: .keyboard } key may be described in many ways, including *Ctrl-X*{: .keyboard }, *Control-X*{: .keyboard }, and *^X*{: .keyboard }."
+- "Use of the *Control*{:.keyboard} key may be described in many ways, including *Ctrl-X*, *Control-X*, and *^X*."
 - "The shell does not have a trash bin: once something is deleted, it's really gone."
 - "Depending on the type of work you do, you may need a more powerful text editor than Nano."
 ---
@@ -140,7 +140,7 @@ $ nano draft.txt
 > [Gedit](http://projects.gnome.org/gedit/). On Windows, you may wish to
 > use [Notepad++](http://notepad-plus-plus.org/).  Windows also has a built-in
 > editor called `notepad` that can be run from the command line in the same
-> way as `nano` for the purposes of this lesson.  
+> way as `nano` for the purposes of this lesson.
 >
 > No matter what editor you use, you will need to know where it searches
 > for and saves files. If you start it from the shell, it will (probably)
@@ -151,33 +151,33 @@ $ nano draft.txt
 {: .callout}
 
 Let's type in a few lines of text.
-Once we're happy with our text, we can press *CTRL*{: .keyboard }+*O*{: .keyboard } (press the *CTRL*{: .keyboard } or *CONTROL*{: .keyboard } key and, while
-holding it down, press the *O*{: .keyboard } key) to write our data to disk
+Once we're happy with our text, we can press *Ctrl*{:.keyboard}+*O*{:.keyboard} (press the *Ctrl*{:.keyboard} or *Control*{:.keyboard} key and, while
+holding it down, press the *O*{:.keyboard} key) to write our data to disk
 (we'll be asked what file we want to save this to:
 press `ENTER` to accept the suggested default of `draft.txt`).
 
 ![Nano in Action](../fig/nano-screenshot.png)
 
-Once our file is saved, we can use *CTRL-X*{: .keyboard } to quit the editor and
+Once our file is saved, we can use *Ctrl*{:.keyboard}+*X*{:.keyboard} to quit the editor and
 return to the shell.
 
-> ## *CONTROL*{: .keyboard }, *CTRL*{: .keyboard }, or *^*{: .keyboard } Key
+> ## *Control*{:.keyboard}, *Ctrl*{:.keyboard}, or *^* Key
 >
-> The *CONTROL*{: .keyboard } key is also called the *CTRL*{: .keyboard } key. There are various ways
-> in which using the *CONTROL*{: .keyboard } key may be described. For example, you may
-> see an instruction to press the *CONTROL*{: .keyboard } key and, while holding it down,
-> press the *X*{: .keyboard } key, described as any of:
+> The *Control*{:.keyboard} key is also called the *Ctrl*{: .keyboard } key. There are various ways
+> in which using the *Control*{:.keyboard} key may be described. For example, you may
+> see an instruction to press the *Control*{:.keyboard} key and, while holding it down,
+> press the *X*{:.keyboard} key, described as any of:
 >
-> * *Control-X*{: .keyboard }
-> * *Control+X*{: .keyboard }
-> * *Ctrl-X*{: .keyboard }
-> * *Ctrl+X*{: .keyboard }
-> * *^X*{: .keyboard }
-> * *C-x*{: .keyboard }
+> * *Control-X*
+> * *Control+X*
+> * *Ctrl-X*
+> * *Ctrl+X*
+> * *^X*
+> * *C-x*
 >
 > In nano, along the bottom of the screen you'll see `^G Get Help ^O WriteOut`.
-> This means that you can use *CTRL*{: .keyboard }+*G*{: .keyboard } to get help and *CTRL*{: .keyboard }+*O*{: .keyboard } to save your
-> file.
+> This means that you can use *Ctrl*{:.keyboard}+*G*{:.keyboard} to get help
+> and *Ctrl*{:.keyboard}+*O*{:.keyboard} to save your file.
 {: .callout}
 
 `nano` doesn't leave any output on the screen after it exits,

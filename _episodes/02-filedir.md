@@ -45,10 +45,10 @@ let's open a shell window:
 >
 > If you type the command:
 > `PS1='$ '`
-> into your shell, followed by pressing the *ENTER*{: .keyboard } key,
-> your window should look like our example in this lesson.  
+> into your shell, followed by pressing the *Enter*{:.keyboard} key,
+> your window should look like our example in this lesson.
 > This isn't necessary to follow along (in fact, your prompt may have
-> other helpful information you want to know about).  This is up to you!  
+> other helpful information you want to know about).  This is up to you!
 {: .callout}
 
 ~~~
@@ -62,7 +62,7 @@ the prompt. When typing commands, either from these lessons or from other source
 do not type the prompt, only the commands that follow it.
 
 Type the command `whoami`,
-then press the *ENTER*{: .keyboard } key to send the command to the shell.
+then press the *Enter*{:.keyboard} key to send the command to the shell.
 The command's output is the ID of the current user,
 i.e.,
 it shows us who the shell thinks we are:
@@ -88,13 +88,13 @@ More specifically, when we type `whoami` the shell:
 > ## Username Variation
 >
 > In this lesson, we have used the username `nelle` (associated
-> with our hypothetical scientist Nelle) in example input and output throughout.  
+> with our hypothetical scientist Nelle) in example input and output throughout.
 > However, when
 > you type this lesson's commands on your computer,
 > you should see and use something different,
 > namely, the username associated with the user account on your computer.  This
 > username will be the output from `whoami`.  In
-> what follows, `nelle` should always be replaced by that username.  
+> what follows, `nelle` should always be replaced by that username.
 {: .callout}
 
 > ## Unknown commands
@@ -148,10 +148,10 @@ $ pwd
 > The home directory path will look different on different operating systems.
 > On Linux it may look like `/home/nelle`,
 > and on Windows it will be similar to `C:\Documents and Settings\nelle` or
-> `C:\Users\nelle`.  
+> `C:\Users\nelle`.
 > (Note that it may look slightly different for different versions of Windows.)
 > In future examples, we've used Mac output as the default - Linux and Windows
-> output may differ slightly, but should be generally similar.  
+> output may differ slightly, but should be generally similar.
 {: .callout}
 
 To understand what a "home directory" is,
@@ -159,7 +159,7 @@ let's have a look at how the file system as a whole is organized.  For the
 sake of this example, we'll be
 illustrating the filesystem on our scientist Nelle's computer.  After this
 illustration, you'll be learning commands to explore your own filesystem,
-which will be constructed in a similar way, but not be exactly identical.  
+which will be constructed in a similar way, but not be exactly identical.
 
 On Nelle's computer, the filesystem looks like this:
 
@@ -175,7 +175,7 @@ Inside that directory are several other directories:
 `data` (for miscellaneous data files),
 `Users` (where users' personal directories are located),
 `tmp` (for temporary files that don't need to be stored long-term),
-and so on.  
+and so on.
 
 We know that our current working directory `/Users/nelle` is stored inside `/Users`
 because `/Users` is the first part of its name.
@@ -193,16 +193,16 @@ because its name begins with `/`.
 
 Underneath `/Users`,
 we find one directory for each user with an account on Nelle's machine,
-her colleagues the Mummy and Wolfman.  
+her colleagues the Mummy and Wolfman.
 
 ![Home Directories](../fig/home-directories.svg)
 
 The Mummy's files are stored in `/Users/imhotep`,
 Wolfman's in `/Users/larry`,
 and Nelle's in `/Users/nelle`.  Because Nelle is the user in our
-examples here, this is why we get `/Users/nelle` as our home directory.  
+examples here, this is why we get `/Users/nelle` as our home directory.
 Typically, when you open a new command prompt you will be in
-your home directory to start.  
+your home directory to start.
 
 Now let's learn the command that will let us see the contents of our
 own filesystem.  We can see what's in our home directory by running `ls`,
@@ -407,9 +407,9 @@ and (if you're lucky) provides a few examples of how to use it.
 {: .callout}
 
 To navigate through the `man` pages,
-you may use the *&uarr;*{: .keyboard } and *&darr;*{: .keyboard } arrow keys to move line-by-line,
-or try the *B*{: .keyboard } and *SPACEBAR*{: .keyboard } keys to skip up and down by full page.
-Quit the `man` pages by typing *Q*{: .keyboard }.
+you may use the *&uarr;*{:.keyboard} and *&darr;*{:.keyboard} arrow keys to move line-by-line,
+or try the *B*{:.keyboard} and *Space*{:.keyboard} keys to skip up and down by full page.
+Quit the `man` pages by typing *Q*{:.keyboard}.
 
 Here,
 we can see that our home directory contains mostly **sub-directories**.
@@ -451,17 +451,17 @@ data-shell/
 Your output should be a list of all the files and sub-directories on your
 Desktop, including the `data-shell` directory you downloaded at
 the start of the lesson.  Take a look at your Desktop to confirm that
-your output is accurate.  
+your output is accurate.
 
 As you may now see, using a bash shell is strongly dependent on the idea that
-your files are organized in an hierarchical file system.  
+your files are organized in an hierarchical file system.
 Organizing things hierarchically in this way helps us keep track of our work:
 it's possible to put hundreds of files in our home directory,
 just as it's possible to pile hundreds of printed papers on our desk,
 but it's a self-defeating strategy.
 
 Now that we know the `data-shell` directory is located on our Desktop, we
-can do two things.  
+can do two things.
 
 First, we can look at its contents, using the same strategy as before, passing
 a directory name to `ls`:
@@ -479,7 +479,7 @@ data/               north-pacific-gyre/ pizza.cfg           writing/
 
 Second, we can actually change our location to a different directory, so
 we are no longer located in
-our home directory.  
+our home directory.
 
 The command to change locations is `cd` followed by a
 directory name to change our working directory.
@@ -540,12 +540,12 @@ $ cd data-shell
 ~~~
 {: .error}
 
-But we get an error!  Why is this?  
+But we get an error!  Why is this?
 
 With our methods so far,
 `cd` can only see sub-directories inside your current directory.  There are
 different ways to see directories above your current location; we'll start
-with the simplest.  
+with the simplest.
 
 There is a shortcut in the shell to move up one directory level
 that looks like this:
@@ -628,14 +628,14 @@ equivalent to `ls -Fa`.
 These then, are the basic commands for navigating the filesystem on your computer:
 `pwd`, `ls` and `cd`.  Let's explore some variations on those commands.  What happens
 if you type `cd` on its own, without giving
-a directory?  
+a directory?
 
 ~~~
 $ cd
 ~~~
 {: .bash}
 
-How can you check what happened?  `pwd` gives us the answer!  
+How can you check what happened?  `pwd` gives us the answer!
 
 ~~~
 $ pwd
@@ -648,7 +648,7 @@ $ pwd
 {: .output}
 
 It turns out that `cd` without an argument will return you to your home directory,
-which is great if you've gotten lost in your own filesystem.  
+which is great if you've gotten lost in your own filesystem.
 
 Let's try returning to the `data` directory from before.  Last time, we used
 three commands, but we can actually string together the list of directories
@@ -659,16 +659,16 @@ $ cd Desktop/data-shell/data
 ~~~
 {: .bash}
 
-Check that we've moved to the right place by running `pwd` and `ls -F`  
+Check that we've moved to the right place by running `pwd` and `ls -F`
 
 If we want to move up one level from the data directory, we could use `cd ..`.  But
 there is another way to move to any directory, regardless of your
-current location.  
+current location.
 
 So far, when specifying directory names, or even a directory path (as above),
 we have been using **relative paths**.  When you use a relative path with a command
 like `ls` or `cd`, it tries to find that location  from where we are,
-rather than from the root of the file system.  
+rather than from the root of the file system.
 
 However, it is possible to specify the **absolute path** to a directory by
 including its entire path from the root directory, which is indicated by a
@@ -679,7 +679,7 @@ no matter where we are when we run the command.
 This allows us to move to our `data-shell` directory from anywhere on
 the filesystem (including from inside `data`).  To find the absolute path
 we're looking for, we can use `pwd` and then extract the piece we need
-to move to `data-shell`.  
+to move to `data-shell`.
 
 ~~~
 $ pwd
@@ -696,7 +696,7 @@ $ cd /Users/nelle/Desktop/data-shell
 ~~~
 {: .bash}
 
-Run `pwd` and `ls -F` to ensure that we're in the directory we expect.  
+Run `pwd` and `ls -F` to ensure that we're in the directory we expect.
 
 > ## Two More Shortcuts
 >
@@ -768,7 +768,7 @@ $ ls nor
 ~~~
 {: .bash}
 
-and then presses the *TAB*{: .keyboard } key on her keyboard,
+and then presses the *Tab*{:.keyboard} key on her keyboard,
 the shell automatically completes the directory name for her:
 
 ~~~
@@ -776,12 +776,12 @@ $ ls north-pacific-gyre/
 ~~~
 {: .bash}
 
-If she presses *TAB*{: .keyboard } again,
+If she presses *Tab*{:.keyboard} again,
 Bash will add `2012-07-03/` to the command,
 since it's the only possible completion.
-Pressing *TAB*{: .keyboard } again does nothing,
+Pressing *Tab*{:.keyboard} again does nothing,
 since there are 19 possibilities;
-pressing *TAB*{: .keyboard } twice brings up a list of all the files,
+pressing *Tab*{:.keyboard} twice brings up a list of all the files,
 and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.

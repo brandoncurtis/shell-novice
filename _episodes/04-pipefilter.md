@@ -579,7 +579,7 @@ so this matches all the valid data files she has.
 > > this
 > > is
 > > a test
-> > *CTRL*{: .keyboard }+*D*{: .keyboard } # This lets the shell know you have finished typing the input
+> > *Ctrl*{:.keyboard}+*D*{:.keyboard} # This lets the shell know you have finished typing the input
 > > ```
 > > {: .bash}
 > >
