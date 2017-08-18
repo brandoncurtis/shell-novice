@@ -407,7 +407,7 @@ and (if you're lucky) provides a few examples of how to use it.
 {: .callout}
 
 To navigate through the `man` pages,
-you may use the *&uarr;*{:.keyboard} and *&darr;*{:.keyboard} arrow keys to move line-by-line,
+you may use the *▲*{:.keyboard} and *▼*{:.keyboard} arrow keys to move line-by-line,
 or try the *B*{:.keyboard} and *Space*{:.keyboard} keys to skip up and down by full page.
 Quit the `man` pages by typing *Q*{:.keyboard}.
 
